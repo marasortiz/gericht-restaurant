@@ -1,4 +1,4 @@
-/* === MAIN  === */
+/* === ELEMENT  === */
 .app__gallery {
   display: flex;
   flex-direction: row;
@@ -7,7 +7,7 @@
   padding: 4rem 0 4rem 6rem;
 }
 
-/* === APP ITEMS === */
+/* === MODIFIER === */
 .app__gallery-content {
     flex: 1;
     display: flex;
@@ -57,8 +57,9 @@
   bottom: 5%;
 }
 
-/* === GALLERY ITEMS === */
-.app__gallery-images_card:hover .gallery__image-icon {
+/* === MODIFIER === */
+.app__gallery-images_card:hover 
+.gallery__image-icon {
   opacity: 1;
 }
 
@@ -83,7 +84,7 @@
   color: var(--color-white);
 }
 
-/* === APP ELEMENTS === */
+/* === TAGS === */
 .app__gallery-content button {
     margin-top: 1rem;
 }
@@ -99,8 +100,6 @@
 .app__gallery-images_card:hover img {
   opacity: 0.35;
 }
-
-/* === GALLERY ELEMENTS === */
 
 /* === MEDIA QUERY === */
 @media screen and (min-width: 2000px) {

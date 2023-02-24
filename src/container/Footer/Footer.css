@@ -1,4 +1,4 @@
-/* === MAIN  === */
+/* === ELEMENT  === */
 .app__footer{
     width: 100%;
     position: relative;
@@ -13,7 +13,7 @@
     padding-top: 0;
 }
 
-/* === ITEMS === */
+/* === MODIFIER === */
 .app__footer-links{
     width: 100%;
     display: flex;
@@ -50,7 +50,7 @@
     margin-top: 3rem;
 }
 
-/* === ELEMENTS === */
+/* === TAGS === */
 .app__footer-links_logo img:first-child {
     width: 210px;
     margin-bottom: 0.75rem;

@@ -1,10 +1,10 @@
-/* === MAIN  === */
+/* === ELEMENT  === */
 .app__specialMenu{
      flex-direction: column;
      background: var(--color-black);
 }
 
-/* === ITEMS === */
+/* === MODIFIER === */
 .app__specialMenu-title{
     margin-bottom: 2rem;
     text-align: center;
@@ -49,8 +49,7 @@
 }
 
 
-/* === ELEMENTS === */
-
+/* === TAGS === */
 .app__specialMenu-menu_img img{
     width: 100%;
     height: auto;

@@ -1,4 +1,4 @@
-/* === MAIN  === */
+/* === ELEMENT  === */
 .app__menuitem{
     width: 100%;
     margin: 1rem 0;
@@ -7,7 +7,7 @@
     flex-direction: column;
 }
 
-/* === ITEMS === */
+/* === MODIFIER === */
 .app__menuitem-head{
     display: flex;
     justify-content: space-between;

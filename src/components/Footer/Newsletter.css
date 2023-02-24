@@ -1,11 +1,11 @@
-/* === MAIN  === */
+/* === ELEMENT  === */
 .app__newsletter{
     padding: 2rem 4rem;
     border: 1px solid var(--color-golden);
     background: var(--color-black);
 }
 
-/* === ITEMS === */
+/* === MODIFIER === */
 .app__newsletter-heading{
     text-align: center;
 }
@@ -15,7 +15,7 @@
     margin-top: 3rem;
 }
 
-/* === ELEMENTS === */
+/* === TAGS === */
 .app__newsletter-imput input{
     width: 620px;
     border: 1px solid var(--color-golden);

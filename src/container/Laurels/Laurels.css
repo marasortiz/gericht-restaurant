@@ -1,4 +1,4 @@
-/* === MAIN  === */
+/* === ELEMENT  === */
 .app__laurels_awards {
   display: flex;
   justify-content: flex-start;
@@ -8,7 +8,7 @@
   margin-top: 3rem;
 }
 
-/* === ITEMS === */
+/* === MODIFIER === */
 .app__laurels_awards-card {
   flex: 1;
   display: flex;
@@ -25,7 +25,7 @@
   margin-left: 1rem;
 }
 
-/* === ELEMENTS === */
+/* === TAGS === */
 .app__laurels_awards-card img {
   width: 50px;
   height: 50px;
@@ -36,10 +36,6 @@
   .app__laurels_awards-card {
     min-width: 390px;
   }
-}
-
-@media screen and (max-width: 1150px) {
-
 }
 
 @media screen and (max-width: 650px) {
